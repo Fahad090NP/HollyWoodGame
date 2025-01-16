@@ -1,0 +1,91 @@
+/* CSS RESET & BASIC VARIABLE DECLERATIONS */
+
+@font-face {
+  font-family: Acme;
+  src: url(../assets/fonts/Acme.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f6fff8;
+  --secondary-color: #acf39d;
+  --tertiary-color: #0031b9;
+  --header-color: #042a2b;
+  --text-color: #0a0908;
+}
+
+body {
+  font-family: Acme;
+  background-color: var(--primary-color);
+}
+
+header {
+  background-color: var(--header-color);
+  height: 10vh;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+header span {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+main {
+  height: 90vh;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+#game-line {
+  font-size: 38px;
+}
+
+#keyboard {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#keyboard div {
+  font-family: "Segoe UI";
+  font-weight: bolder;
+  background-color: #98d68c;
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.411);
+}
+
+#chances-panel {
+  font-size: 44px;
+  color: var(--tertiary-color);
+}
+
+#secret-words {
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: bolder;
+}

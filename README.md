@@ -30,9 +30,7 @@ https://www.webintoapp.com/store/475618
 
 ## Installation
 
-To get started with the project:
-
-Clone the repository:
+To get started with the project, clone the repository:
 
 ```bash
 git clone https://github.com/Fahad090NP/HollyWoodGame.git

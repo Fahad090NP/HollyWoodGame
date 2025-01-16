@@ -11,8 +11,9 @@
 
 ## Download Game for Android
 
+- Download package from release folder
 ```
-https://github.com/Fahad090NP/HollyWoodGame/release
+./release/android.apk
 ```
 - This game is packed in apk file with the help of https://webintoapp.com
 ```
